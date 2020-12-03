@@ -46,7 +46,7 @@ export const loginRequest = (data) => {
     return (dispatch) => {
         let { username, password } = data;
         dispatch(updateProgress({ isSpinner: true, text: 'Logging in...' }));
-        axios.get('http://swapi.dev/api/people', {
+        axios.get('https://swapi.dev/api/people', {
             params: {
                 search: username
             }
@@ -73,7 +73,7 @@ export const loginRequest = (data) => {
 export const searchPlanet = text => {
     return (dispatch) => {
         dispatch(updateProgress({ isSpinner: true, text: 'Searching...' }));
-        axios.get('http://swapi.dev/api/planets', {
+        axios.get('https://swapi.dev/api/planets', {
             params: {
                 search: text
             }
