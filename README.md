@@ -1,6 +1,56 @@
-Steps to run the applicstion
+# About project
 
-Step 1. Open command prompt,go to directory and run 'npm install'
-step 2. run 'npm start'
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application will help user to login with specific cred and list all the planet data on page with Search bar filter.
+It uses SWAPI point to pull data for Planets.
+Liberaries used :
+React
+Redux
+React-router
 
-For Testing run 'npm test'
+In this application Node js (V:- 14.15.0) is used to serve where Express & Babel used.
+
+Unit Test cases are written by using Jest & Enzyme.
+
+The application is deployed on Heroku [here](https.google.co.in)
+
+## Key Features
+
+PWA web application.\
+Created Responsive layout.\
+Module design pattern used.\
+Reusable components build.\
+To enhance performance infinite scroll, lazy loading & memoizing is used.\
+Semantic tags used to support accessibilty.
+
+### Lighthouse Report:
+
+![Alt text](/../master/public/Ligthhouse-Performance-test.JPG?raw=true "Ligthhouse-Performance-test")
+
+### Accessibility using Wave extension of chrome:
+
+![Alt text](/../master/public/AccessebilityTest.JPG?raw=true "AccessebilityTest")
+
+### Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.
