@@ -1,7 +1,7 @@
 import React from 'react';
 import { Provider } from 'react-redux'
 import ReactDOM from 'react-dom';
-import './index.css';
+// import './index.css';
 import Login from './containers/Login';
 import PlanetSearch from './containers/PlanetSearch';
 import {
