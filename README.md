@@ -12,7 +12,7 @@ In this application Node js (V:14.15.0) is used to serve where Express & Babel u
 
 Unit Test cases are written by using Jest & Enzyme.
 
-The application is deployed on Heroku [here](http://as-starwar-xebia.herokuapp.com/search)
+The application is deployed on Heroku [here](http://as-starwar-xebia.herokuapp.com)
 
 ### Available Scripts
 
