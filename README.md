@@ -8,7 +8,7 @@ React
 Redux
 React-router
 
-In this application Node js (V:- 14.15.0) is used to serve where Express & Babel used.
+In this application Node js (V:14.15.0) is used to serve where Express & Babel used.
 
 Unit Test cases are written by using Jest & Enzyme.
 

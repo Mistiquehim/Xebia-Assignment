@@ -79,7 +79,6 @@ export const searchPlanet = text => {
             }
         })
             .then(function (response) {
-                console.log(response);
                 let data = response.data;
                 if (data && data.results && data.results.length > 0) {
                     dispatch(searchSuccess({ success: true, results: data.results }));

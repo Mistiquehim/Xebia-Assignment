@@ -32,7 +32,6 @@ class PlanetSearch extends Component {
     }
 
     onPlantClick(info) {
-        console.log("here ....", info);
         this.setState({ isOpen: true, plantInfo: info, showPlanetCard: !this.state.showPlanetCard });
     }
 
