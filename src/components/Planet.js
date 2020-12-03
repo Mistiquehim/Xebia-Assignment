@@ -10,7 +10,7 @@ const Planet = ({
     return (
         <li
             style={{ fontSize: fontSize }}
-            className={info.population === 'unknown' ? 'unknown' : 'known'}
+            className={info.population === 'unknown' ? 'unknown planetList' : 'known planetList'}
             onClick={() => handleClick(info)}>
             <p>{info.name}</p>
         </li>

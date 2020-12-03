@@ -98,6 +98,14 @@ main {
 ul {
   padding: 0;
 }
+.planetList {
+  position: relative;
+  list-style: none;
+  display: inline-block;
+  padding: 1.25rem 3.75rem;
+  margin: 15px 12px;
+  border-radius: 50%;
+}
 li {
   position: relative;
   list-style: none;
@@ -185,4 +193,7 @@ button:hover {
 .closeIcon {
   color: #222;
   font-size: 20px;
+}
+.modal-content .modal-body{
+  pointer-events: none;
 }
