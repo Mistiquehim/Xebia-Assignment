@@ -12,24 +12,7 @@ In this application Node js (V:- 14.15.0) is used to serve where Express & Babel
 
 Unit Test cases are written by using Jest & Enzyme.
 
-The application is deployed on Heroku [here](https.google.co.in)
-
-## Key Features
-
-PWA web application.\
-Created Responsive layout.\
-Module design pattern used.\
-Reusable components build.\
-To enhance performance infinite scroll, lazy loading & memoizing is used.\
-Semantic tags used to support accessibilty.
-
-### Lighthouse Report:
-
-![Alt text](/../master/public/Ligthhouse-Performance-test.JPG?raw=true "Ligthhouse-Performance-test")
-
-### Accessibility using Wave extension of chrome:
-
-![Alt text](/../master/public/AccessebilityTest.JPG?raw=true "AccessebilityTest")
+The application is deployed on Heroku [here](http://as-starwar-xebia.herokuapp.com/search)
 
 ### Available Scripts
 
