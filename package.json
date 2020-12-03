@@ -41,6 +41,9 @@
     "redux-mock-store": "^1.5.1",
     "sinon": "^4.2.2"
   },
+  "engines": {
+    "node": "14.x"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -51,9 +54,6 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ],
-    "engines": {
-      "node": "14.15.0"
-    }
+    ]
   }
 }
