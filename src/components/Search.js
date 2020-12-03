@@ -11,7 +11,7 @@ class Search extends Component {
                         type='text'
                         className="search-box"
                         ref='filterInput'
-                        placeholder='Search Planet..'
+                        placeholder='Search Planet'
                         onChange={() => {
                             filterUpdate(this.refs.filterInput.value)
                         }}
